@@ -1,0 +1,11 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Maria Casalecchi",
+        "email": "mcasalecchi@casa.com.br"
+    }, {
+        "id": 2,
+        "name": "Caterina Moraes",
+        "email": "categeek.2021@gmail.com"
+    }]
+}
