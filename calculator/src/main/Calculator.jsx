@@ -39,7 +39,7 @@ export default class Calculator extends Component {
 
             const values = [...this.state.values]
 
-            let result
+            let result = "0"
             switch (currentOperation) {
                 case '+':
                     result = values[0] + values[1]
@@ -54,10 +54,9 @@ export default class Calculator extends Component {
                     result = values[0] - values[1]
                     break
                 default:
-                    result = null
             }
 
-            const historic = `${this.state.historic} ${values[1]} ${equals ? '':operation}`
+            const historic = `${this.state.historic} ${values[1]}`
             values[0] = result
             values[1] = 0
 
