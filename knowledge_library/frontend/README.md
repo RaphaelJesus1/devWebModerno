@@ -1,6 +1,6 @@
 # frontend
 
-## Project setup
+## :scroll: Project setup
 ```
 npm install
 ```
@@ -19,3 +19,7 @@ npm run build
 ```
 npm run lint
 ```
+
+## Port
+This project runs by default on port `:8080` and use backend on port `:3001`.
+You can change the backend URL on `src/global.js` at line 4.
